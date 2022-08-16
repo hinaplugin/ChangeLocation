@@ -1,0 +1,15 @@
+name: ChangeLocation
+version: '${project.version}'
+main: com.hinaplugin.changelocation.changelocation.ChangeLocation
+api-version: 1.18
+prefix: ChangeLocation
+authors: [ hina2113 ]
+description: 弓を打ったプレイヤーと当たったプレイヤーの位置を入れ替える
+
+commands:
+  getbow:
+    permission: cl.co.getbow;
+
+permissions:
+  cl.co.getbow:
+    default: true
